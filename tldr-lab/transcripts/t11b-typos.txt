@@ -1,0 +1,11 @@
+$ tealdeer frobnicate-9000
+Page `frobnicate-9000` not found in cache.
+Try updating with `tldr --update`, or submit a pull request to:
+https://github.com/tldr-pages/tldr
+exit code: 1
+
+$ tealdeer gti    (a typo for git)
+Page `gti` not found in cache.
+Try updating with `tldr --update`, or submit a pull request to:
+https://github.com/tldr-pages/tldr
+exit code: 1

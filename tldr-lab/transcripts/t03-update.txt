@@ -1,0 +1,16 @@
+$ tealdeer --update
+Successfully created cache directory `/home/hatch/workspace/build-check/tldr-scratch/home/.cache/tealdeer/tldr-pages`.
+Could not update cache
+
+Caused by:
+    Could not download tldr pages from https://github.com/tldr-pages/tldr/releases/latest/download/tldr-pages.en.zip: Err(Io(Custom { kind: InvalidData, error: InvalidCertificate(UnknownIssuer) }))
+
+Note: Update errors are often caused by unexpected or missing TLS certificates.
+You are currently using the following TLS backend: rustls-with-webpki-roots
+Try changing the updates.tls_backend setting in the config file, for example:
+
+  [updates]
+  tls_backend = "rustls-with-native-roots"
+
+This build of tealdeer has support for the following options: rustls-with-webpki-roots, rustls-with-native-roots
+exit code: 1

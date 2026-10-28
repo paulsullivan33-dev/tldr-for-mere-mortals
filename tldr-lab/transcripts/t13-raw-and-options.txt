@@ -1,0 +1,28 @@
+$ tealdeer --platform macos sed | grep -A2 "in-place"
+
+$ tealdeer --raw tar | head -12
+# tar
+
+> Archiving utility.
+> Often combined with a compression method, such as `gzip` or `bzip2`.
+> More information: <https://www.gnu.org/software/tar/manual/tar.html>.
+
+- [c]reate an archive and write it to a [f]ile:
+
+`tar cf {{path/to/target.tar}} {{path/to/file1 path/to/file2 ...}}`
+
+- [c]reate a g[z]ipped archive and write it to a [f]ile:
+
+
+$ tealdeer --short-options tar | grep -A1 "directory"
+  [c]reate a g[z]ipped (compressed) archive from a directory using relative paths:
+
+      tar czf path/to/target.tar.gz -C path/to/directory .
+
+  E[x]tract a (compressed) archive [f]ile into the current directory [v]erbosely:
+
+--
+  E[x]tract a (compressed) archive [f]ile into the target directory:
+
+      tar xf path/to/source.tar.ext -C path/to/directory
+

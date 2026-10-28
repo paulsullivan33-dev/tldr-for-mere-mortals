@@ -1,0 +1,7 @@
+$ tealdeer tar   (custom tar.page.md AND tar.patch.md both present)
+
+  tar
+  The lab override test page. This text only exists in the custom pages folder.
+  Test the override:
+      tar --lab-override-test
+

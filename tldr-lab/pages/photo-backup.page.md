@@ -1,0 +1,16 @@
+# photo-backup
+
+> Copy new photos from a camera card to the backup drive, sorted into dated folders.
+> More information: <https://example.com/photo-backup>.
+
+- Copy all new photos from a card to the backup drive:
+
+`photo-backup --source {{path/to/card}} --dest {{path/to/backup_drive}}`
+
+- Show what would be copied, without copying anything:
+
+`photo-backup --dry-run`
+
+- Check the copies against the originals by checksum:
+
+`photo-backup --verify`

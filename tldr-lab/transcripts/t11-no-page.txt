@@ -1,0 +1,11 @@
+$ tealdeer start-stop-daemon
+Page `start-stop-daemon` not found in cache.
+Try updating with `tldr --update`, or submit a pull request to:
+https://github.com/tldr-pages/tldr
+exit code: 1
+
+$ # ...but the command is real, and it has a man page
+$ command -v start-stop-daemon
+/usr/sbin/start-stop-daemon
+$ man start-stop-daemon | wc -l   (rendered by the lab)
+308

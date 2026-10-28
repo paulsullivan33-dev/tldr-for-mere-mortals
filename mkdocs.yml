@@ -1,0 +1,28 @@
+site_name: tldr for Mere Mortals
+site_description: A pocket cheat sheet for almost every command line tool. Community-written pages that boil the man page down to the common examples, how a client like Tealdeer fetches and renders them, how to write pages for your own scripts, and when the man page is still the right answer.
+site_url: https://paulsullivan33-dev.github.io/tldr-for-mere-mortals/
+copyright: 'Part of <a href="https://paulsullivan33-dev.github.io/mere-mortals/">For Mere Mortals</a> · Text <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, code MIT'
+
+# Guides live at the repo root (nice for GitHub browsing).
+# The deploy workflow copies them into docs/ before building.
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - What tldr Is: what-tldr-is.md
+  - The Moving Parts: the-moving-parts.md
+  - Installing tldr: installing-tldr.md
+  - Your First Page: your-first-page.md
+  - Reading a Page: reading-a-page.md
+  - tldr and the Man Page: tldr-and-the-man-page.md
+  - Finding Pages: finding-pages.md
+  - When There Is No Page: when-there-is-no-page.md
+  - Your Own Pages: your-own-pages.md
+  - Configuration: configuration.md
+  - Recipes: recipes.md
+  - The Neighbours: the-neighbours.md
+  - Limits: limits.md
+  - Troubleshooting: troubleshooting.md
+  - Glossary: glossary.md
+  - Writing Criteria: criteria.md

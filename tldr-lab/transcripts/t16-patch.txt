@@ -1,0 +1,7 @@
+$ tealdeer tar | tail -6   (with a personal patch in place)
+
+
+  In this house we always list an archive before extracting it:
+
+      tar tvf path/to/source.tar
+

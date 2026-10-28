@@ -1,0 +1,5 @@
+$ # config.toml now says: tls_backend = "rustls-with-native-roots"
+$ tealdeer --update
+Successfully updated cache.
+Pages for the following languages were downloaded: en
+exit code: 0

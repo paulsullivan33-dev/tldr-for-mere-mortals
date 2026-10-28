@@ -1,0 +1,25 @@
+$ ls ~/.local/share/tealdeer/pages/
+photo-backup.md
+tar.patch.md
+
+$ tealdeer photo-backup    (file named photo-backup.md)
+Page `photo-backup` not found in cache.
+Try updating with `tldr --update`, or submit a pull request to:
+https://github.com/tldr-pages/tldr
+exit code: 1
+
+$ mv ~/.local/share/tealdeer/pages/photo-backup.md ~/.local/share/tealdeer/pages/photo-backup.page.md
+
+$ tealdeer photo-backup    (file named photo-backup.page.md)
+
+  photo-backup
+  Copy new photos from a camera card to the backup drive, sorted into dated folders.
+  More information: <https://example.com/photo-backup>.
+  Copy all new photos from a card to the backup drive:
+      photo-backup --source path/to/card --dest path/to/backup_drive
+  Show what would be copied, without copying anything:
+      photo-backup --dry-run
+  Check the copies against the originals by checksum:
+      photo-backup --verify
+
+exit code: 0

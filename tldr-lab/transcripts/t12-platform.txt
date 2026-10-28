@@ -1,0 +1,31 @@
+$ tealdeer sed | sed -n "1,14p"
+
+  GNU stream editor for filtering and transforming text.
+  See also: `awk`, `ed`.
+  More information: <https://www.gnu.org/software/sed/manual/sed.html>.
+
+  [s]ubstitute all occurrences of "apple" with "mango" on all lines, print to `stdout`:
+
+      command | sed 's/apple/mango/g'
+
+  Replace "apple" with "mango" in-place in a file (overwriting original file):
+
+      sed --in-place 's/apple/mango/g' path/to/file
+
+  Run multiple substitutions in one command:
+
+$ tealdeer --platform macos sed | sed -n "1,14p"
+
+  Edit text in a scriptable manner.
+  See also: `awk`, `ed`.
+  More information: <https://keith.github.io/xcode-man-pages/sed.1.html>.
+
+  Replace all `apple` (basic `regex`) occurrences with `mango` (basic `regex`) in all input lines and print the result to `stdout`:
+
+      command | sed 's/apple/mango/g'
+
+  Execute a specific script [f]ile and print the result to `stdout`:
+
+      command | sed -f path/to/script_file.sed
+
+  Replace all `apple` (extended `regex`) occurrences with `APPLE` (extended `regex`) in all input lines and print the result to `stdout`:

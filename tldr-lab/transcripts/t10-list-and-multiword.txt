@@ -1,0 +1,38 @@
+$ tealdeer --list | wc -l
+7391
+
+$ tealdeer --list | head -8
+!
+$
+%
+((
+,
+.
+2048
+2to3
+
+$ tealdeer --list | grep -E "^git-(checkout|switch|restore)$"
+git-checkout
+git-restore
+git-switch
+
+$ tealdeer git checkout | head -14
+
+  Check out a branch or paths to the working tree.
+  More information: <https://git-scm.com/docs/git-checkout>.
+
+  Create and switch to a new branch:
+
+      git checkout -b branch_name
+
+  Create and switch to a new branch based on a specific reference (branch, remote/branch, tag are examples of valid references):
+
+      git checkout -b branch_name reference
+
+  Switch to an existing local branch:
+
+Could not write to stdout
+
+Caused by:
+    0: Failed to print snippet
+    1: Broken pipe (os error 32)

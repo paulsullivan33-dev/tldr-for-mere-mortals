@@ -1,0 +1,10 @@
+$ tealdeer --show-paths
+Config dir:       /home/hatch/workspace/build-check/tldr-scratch/home/.config/tealdeer/ (OS convention)
+Config path:      /home/hatch/workspace/build-check/tldr-scratch/home/.config/tealdeer/config.toml (OS convention)
+Cache dir:        /home/hatch/workspace/build-check/tldr-scratch/home/.cache/tealdeer (OS convention)
+Pages dir:        /home/hatch/workspace/build-check/tldr-scratch/home/.cache/tealdeer/tldr-pages/
+Custom pages dir: /home/hatch/workspace/build-check/tldr-scratch/home/.local/share/tealdeer/pages/ (OS convention)
+
+$ tealdeer --seed-config
+Successfully created seed config file here: /home/hatch/workspace/build-check/tldr-scratch/home/.config/tealdeer/config.toml
+exit code: 0

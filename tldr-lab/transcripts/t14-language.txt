@@ -1,0 +1,5 @@
+$ tealdeer --language de tar
+Page `tar` not found in cache.
+Try updating with `tldr --update`, or submit a pull request to:
+https://github.com/tldr-pages/tldr
+exit code: 1

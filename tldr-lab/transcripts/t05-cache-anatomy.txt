@@ -1,0 +1,24 @@
+$ du -sh ~/.cache/tealdeer
+30M	home/.cache/tealdeer
+
+$ ls ~/.cache/tealdeer/tldr-pages/
+pages.en
+
+$ ls ~/.cache/tealdeer/tldr-pages/pages.en/
+LICENSE.md
+android
+cisco-ios
+common
+dos
+freebsd
+linux
+netbsd
+openbsd
+osx
+sunos
+windows
+
+$ ls ~/.cache/tealdeer/tldr-pages/pages.en/linux | wc -l
+2070
+$ ls ~/.cache/tealdeer/tldr-pages/pages.en/common | wc -l
+4740

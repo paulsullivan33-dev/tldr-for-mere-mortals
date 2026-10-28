@@ -1,0 +1,6 @@
+$ # cache artificially aged 40 days (interval is 720 hours = 30 days)
+$ tealdeer jq | head -4
+The cache hasn't been updated for 40 days.
+You should probably run `tldr --update` soon.
+
+  jq

@@ -1,0 +1,16 @@
+# The lab machine had no man-db installed, so the lab rendered the
+# Ubuntu 24.04 tar(1) page with groff, the same formatter man uses,
+# and measured the result. On a normal machine: man tar | wc -l
+
+$ man tar | wc -l
+1164
+
+$ man tar | grep -n "examples" | head -3
+46:       sion,  including	 examples  and usage recommendations, refer to the GNU
+
+$ sed -n "44,48p" of the rendered page:
+NOTE
+       This manpage is a short description of GNU tar.	For a detailed discus\xe2\x80\x90
+       sion,  including	 examples  and usage recommendations, refer to the GNU
+       Tar Manual available in texinfo format.	If the info reader and the tar
+       documentation are properly installed on your system, the command

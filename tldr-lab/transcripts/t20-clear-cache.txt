@@ -1,0 +1,20 @@
+$ tealdeer --clear-cache
+Successfully cleared cache at `/home/hatch/workspace/build-check/tldr-scratch/home/.cache/tealdeer/tldr-pages`.
+exit code: 0
+
+$ tealdeer tar
+Page cache not found. Please run `tldr --update` to download the cache.
+
+Note: You can optionally enable automatic cache updates by adding the
+following config to your config file:
+
+  [updates]
+  auto_update = true
+
+The path to your config file can be looked up with `tldr --show-paths`.
+To create an initial config file, use `tldr --seed-config`.
+
+You can find more tips and tricks in our docs:
+
+  https://docs.tealdeer.org
+exit code: 1
